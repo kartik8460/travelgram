@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-service-9d06b": {
+      "hosting": {
+        "travelgram": [
+          "login-service-9d06b"
+        ]
+      }
+    }
+  }
+}
