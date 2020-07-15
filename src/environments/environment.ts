@@ -5,13 +5,7 @@
 export const environment = {
   production: true,
   firebaseConfig: {
-    apiKey: 'AIzaSyAcmj8s9l75x8wo3_eEiF0Beh5JVpZdr1I',
-    authDomain: 'login-service-9d06b.firebaseapp.com',
-    databaseURL: 'https://login-service-9d06b.firebaseio.com',
-    projectId: 'login-service-9d06b',
-    storageBucket: 'login-service-9d06b.appspot.com',
-    messagingSenderId: '625323984165',
-    appId: '1:625323984165:web:01e8eb71fd463ee35146cc',
+    // Your Config Here
   },
 };
 
