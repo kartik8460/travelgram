@@ -26,12 +26,7 @@
       <div *ngIf="email" class="navbar-text float-left">
         {{ email }}
       </div>
-      <a
-        routerLinkActive="active"
-        [routerLink]="['/']"
-        class="nav-item nav-link"
-        >Home</a
-      >
+      <a [routerLink]="['/']" class="nav-item nav-link">Home</a>
       <!-- conditionally rendering links  -->
       <a
         *ngIf="!email"
@@ -56,6 +51,7 @@
       >
 
       <a
+        *ngIf="email"
         [routerLink]="['/addpost']"
         class="nav-item nav-link btn btn-warning text-primary"
       >

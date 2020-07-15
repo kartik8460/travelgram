@@ -10,7 +10,7 @@ export class AuthService {
     return this.auth.createUserWithEmailAndPassword(email, password);
   }
 
-  signIp(email: string, password: string) {
+  signIn(email: string, password: string) {
     return this.auth.signInWithEmailAndPassword(email, password);
   }
 
